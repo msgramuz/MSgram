@@ -1,0 +1,26 @@
+.idea/
+.gradle/
+build/
+obj/
+*.iml
+local.properties
+TMessagesProj/.cxx/
+TMessagesProj/jniLibs/
+TMessagesProj/jniRes/
+**/.DS_Store
+TMessagesProj/afat/
+TMessagesProj_App/afat/
+TMessagesProj_AppHockeyApp/afat/
+TMessagesProj_AppStandalone/afat/
+TMessagesProj_AppHuawei/afat/
+TMessagesProj/jni/ffmpeg/build_android
+
+# MSgram: never publish the signing key or anything derived from it.
+# Losing control of release.keystore lets anyone ship updates as you.
+TMessagesProj/config/release.keystore
+TMessagesProj/config/release.keystore.*
+*.jks
+*.keystore
+
+# MSgram: mahalliy zaxira nusxalar
+_backups/
